@@ -31,5 +31,5 @@ if(fs.existsSync(publicDir)){
 
 app.listen(PORT,()=>{
   connectDB();
-  console.log("Server running on port :",PORT)
+  console.log("Server running on PORT :",PORT)
 })
